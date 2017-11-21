@@ -18,6 +18,14 @@ Fetch and run the build shell. This will install everything you need: latest eth
 ```bash
 bash <(curl https://raw.githubusercontent.com/Machete3000/etc-net-intelligence-api/master/bin/build.sh)
 ```
+
+## Install and run on OSX
+
+```
+npm install
+env WS_SERVER=rpc.etcstats.net WS_SECRET=5ceuMix4qSM6APj7QwTPU npm start app.json
+```
+
 ## Installation as docker container (optional)
 
 There is a `Dockerfile` in the root directory of the repository. Please read through the header of said file for
