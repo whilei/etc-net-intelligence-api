@@ -23,6 +23,7 @@ bash <(curl https://raw.githubusercontent.com/Machete3000/etc-net-intelligence-a
 
 ```
 npm install
+geth --rpc --ws --ws-port=3000
 env WS_SERVER=rpc.etcstats.net WS_SECRET=5ceuMix4qSM6APj7QwTPU npm start app.json
 ```
 
